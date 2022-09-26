@@ -1,0 +1,203 @@
+
+#main{
+    margin-top: 0px;
+    border-top-width: 0px;
+    margin-bottom: 0px;
+}
+
+.tables-container{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.table-search{
+    margin-right: 10px;
+    min-width: 100px;
+}
+
+#searchTable, #searchMenu{
+    width: 60%;
+    box-shadow: 0px 3px 3px 3px grey;
+    height: 30px;
+}
+
+#allTables{
+    padding-left: 10px;
+}
+
+.menu-container{
+    height: 100%;
+    width: 69%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.menu-heading{
+    display: block;
+    right: 10%;
+}
+
+.heading{
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: beige;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.menu-search{
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.table-search,.menu-search{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#totalMenu{
+    overflow: scroll;
+    max-height: 80vh;
+}
+
+h4{
+    display: none;
+}
+
+body{
+    margin-top: 0px;
+}
+
+.box{
+    box-shadow: 0px 5px 5px 0px grey;
+}
+
+.item{
+    min-height: 100px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+.item:hover{
+    background-color: bisque;
+}
+
+.table{
+    min-height: 75px;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.table:hover{
+    background-color: bisque;
+}
+
+.table-name,.item{
+    font-family: "Times New Roman", Times, serif;
+}
+
+h3, p{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 20%;
+    width: fit-content;
+    height: fit-content;
+    overflow: auto;
+    background-color: beige;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 15%;
+    padding: 20%;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close,.close1{
+    color: #aaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus,
+.close1:hover, .close1:focus{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mHeader{
+    padding: 2px 16px;
+    background-color: blue;
+    color: white;
+}
+
+#mBody{
+    padding: 2px 16px;
+}
+
+.GModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 20%;
+    width: 45%;
+    height: 35%;
+    overflow: auto;
+    background-color: beige;
+}
+
+#GHeader{
+    padding: 20px 16px;
+    background-color: blue;
+    color: white;
+}
+
+#GModalBody{
+    padding: 20px 16px;
+}
+
+#modal.open{
+    display: block;
+}
+
+#overlay.open{
+    display: block;
+}
+
+#overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+
+
+
+

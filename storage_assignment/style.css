@@ -1,0 +1,13 @@
+button{
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.increase{
+    background-color: green;
+}
+
+.decrease{
+    background-color: red;
+}
